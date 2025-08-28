@@ -1,0 +1,19 @@
+.dashboardLayout {
+  display: flex;
+  gap: 50px;
+  padding-top: 20px;
+  height: 100%;
+
+  .menu {
+    flex: 1;
+    min-width: 250px;
+    overflow: hidden;
+  }
+
+  .content {
+    flex: 4;
+    background-color: #12101b;
+    overflow: hidden;
+    min-width: 0;
+  }
+}
